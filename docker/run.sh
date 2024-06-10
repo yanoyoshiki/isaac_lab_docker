@@ -19,9 +19,7 @@ docker run \
   -v ~/docker/isaac-sim/data:/root/.local/share/ov/data:rw \
   -v ~/docker/isaac-sim/documents:/root/Documents:rw \
   -v $PWD/../src/IsaacLab:/root/IsaacLab \
-  -v $PWD/../src/skrl:/isaac-sim/kit/python/lib/python3.10/site-packages/skrl \
   -v $PWD/../src/rl_games/rl_games:/isaac-sim/kit/python/lib/python3.10/site-packages/rl_games \
-  -v $PWD/../src/rsl_rl:/isaac-sim/kit/python/lib/python3.10/site-packages/rsl_rl \
   -e ACCEPT_EULA=Y \
   -e DISPLAY=$DISPLAY \
   -e NVIDIA_VISIBLE_DEVICES=all \
