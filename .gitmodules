@@ -1,0 +1,15 @@
+[submodule "src/rl_games"]
+	path = src/rl_games
+	url = git@github.com:rllab-MARL/rl_games.git
+[submodule "src/Orbit"]
+	path = src/Orbit
+	url = git@github.com:rllab-MARL/Orbit.git
+	branch = develop
+[submodule "src/skrl"]
+	path = src/skrl
+	url = git@github.com:rllab-MARL/skrl.git
+	branch = 0_testing
+[submodule "src/My_Code"]
+	path = src/My_Code
+	url = git@github.com:rllab-MARL/My_Code.git
+	branch = docker
